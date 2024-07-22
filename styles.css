@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*Header Start*/
+header{
+    display: flex;
+    align-items: center;
+    
+    background-color: white;
+    padding: 10px 20px;
+    height: 75px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;   
+}
+.header-left span {
+    margin-left: 65px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-left: 358px;
+    justify-content: space-between;
+    width: 290px;
+      
+}
+.search-tab{
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    height: 30px;
+    width: 220px;
+    padding-left: 34px;
+}
+input{
+    border-style: none;
+    font-size: small;
+    margin-right: 8px;
+}
+.logo-header img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.search-icon-img{
+    width: 14px;
+
+}
+.accounts{
+    margin-left: 150px;
+}
+.account-icon-img{
+    width: 35px;
+
+}
+/*Header End*/
+/*Green Bar start*/
+.green-bar{
+    background-color: #1e3932;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.green-bar-container-left{
+    margin-left: 120px;
+}
+.green-bar-container-right{
+    margin-right: 155px
+}
+.green-bar-container-right button{
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 13px;
+    border-color: #f9f9f9;
+    width: 100px;
+    height: 33px;
+    color: #f9f9f9;
+
+}
+.green-bar-container-left h5{
+    color: #f9f9f9;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: sans-serif;
+    
+}
+/*Green Bar End*/
+/*First-Major_Div-Start*/
+
+/*Carousal Start*/
+.carousal img{
+    height: 230px;
+    width: 115px;
+}
+.carousal{
+    display: flex;
+    background-image: url(./images/Dashboard_Banner_BG_Web_a7a075d536.jpg);
+    margin: 30px 131px;
+    border-radius: 20px;
+    height: 232px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.carousal-left{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    width: 55%;
+}
+.text{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.carousal-right{
+    margin-top: 160px;
+    margin-right: 30px;
+}
+.carousal-right .button{
+    margin-right: 8px;
+    
+}
+.carousal-button{
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    color: #f9f9f9;
+    background-color: #00754a;
+}
+/*Carousal End*/
+/*curation start*/
+.curation{
+    margin-top: 60px;
+}
+.curation-conatiner{
+    margin: 0px 125px;
+    background-color: transparent;
+}
+.handcraft-curation h3{
+    font-family: SoDoSans_Bold, Helvetica, sans-serif !important;
+    color: #1e3932;
+    font-size: 25px;
+    padding-left: .35em;
+    margin-bottom: 1em;
+}
+.handcraft-curation-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.handcraft-curation-item .item{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-weight: 550;
+    align-items: center;
+    
+}
+.handcraft-curation-item .item span{
+    margin-top: 10px;
+}
+.handcraft-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+}
+.handcraft-img:hover{
+    cursor: pointer;
+    transform: scale(0.96);
+    transition: transform 0.2s ease-out ;
+    border-color: 1px #c1f1df  ;
+    border-style: solid;
+}
+
