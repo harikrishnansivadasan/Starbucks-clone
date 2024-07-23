@@ -271,3 +271,58 @@ input{
     cursor: pointer;
 }
 /*Barista Recommends-End*/
+/*large-img-container-start*/
+.large-img-container-body{
+    background-color: #edebe9;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    display: flex;
+}  
+.large-img-container{
+    margin: 0 120px;
+    width: 90%; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.large-img-container .Title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 35px;
+    
+}
+.large-img-container .Title h2{
+    font-family: SoDoSans_Bold, Helvetica, sans-serif !important;
+    color: #1e3932;
+}
+.large-img-container .Title h4{
+    color: #00754a;
+    font-size: .8rem;
+    cursor: pointer;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.large-img-container .large-img{
+    margin-top: 25px;
+    position: relative;
+    
+    
+}
+.large-img img{
+    
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.large-img-container .image-container{
+    padding: 0 15px;
+    margin-bottom: 35px;
+    position: relative;
+    
+}
+
+/*large-img-container-End*/
