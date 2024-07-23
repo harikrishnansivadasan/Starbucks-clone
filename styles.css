@@ -187,4 +187,87 @@ input{
     border-color: 1px #c1f1df  ;
     border-style: solid;
 }
-
+/*curation End*/
+/*Barista Recommends-start*/
+.Barista-recommends-container{
+    background-color: #edebe9;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    height: 290px;
+    
+}
+.Barista-recommends{
+    margin-left: 120px;
+    
+}
+.Barista-top{
+    display: flex;
+    justify-content: space-between;
+}
+.Barista-top-left{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 30px;
+}
+.Barista-top-left h3{
+    font-family: SoDoSans_Bold, Helvetica, sans-serif !important;
+    color: #1e3932;
+    font-size: 25px;
+    padding-left: .35em;
+    margin-bottom: 1em;
+}
+.Barista-top-left .view-menu span{
+    color: #00754a;
+    font-size: .8rem;
+    cursor: pointer;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.Barista-top-right .leaf-img img{
+    height: 70px;
+    width: 70px;
+}
+.Barista-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 158px;
+}
+.Barista-content-items{
+    height: 140px;
+    width: 392px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.item-img-price .img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.item-name-des .size{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.add-item-button{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.add-item-button button{
+    color: white;
+    background-color: #00754a;
+    width: 90px;
+    height: 35px;
+    border-radius: 25px;
+}
+.add-item-button button:hover{
+    color: #fff;
+    background-color: #1e3932;
+    cursor: pointer;
+}
+/*Barista Recommends-End*/
