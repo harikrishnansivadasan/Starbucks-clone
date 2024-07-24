@@ -69,6 +69,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     
 }
 .green-bar-container-left{
@@ -283,6 +284,7 @@ input{
     width: 90%; 
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     
 }
 .large-img-container .Title{
@@ -303,7 +305,7 @@ input{
     cursor: pointer;
     font-family: SoDoSans_Semibold, Helvetica, sans-serif;
 }
-.large-img-container .large-img{
+.large-img-container .image-container .large-img{
     margin-top: 25px;
     position: relative;
     
@@ -315,7 +317,7 @@ input{
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
-    object-fit: cover;
+    
 
 }
 .large-img-container .image-container{
@@ -324,5 +326,82 @@ input{
     position: relative;
     
 }
-
+.image-container .gradient{
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,1) ,rgba(0,0,0,.1));
+    width: 100%;
+    height: 350px;
+    top: 0;
+    border-radius: 20px;
+    
+}
+.large-img-text{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    font-size: 15px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #fff;
+}
+.large-img-button button{
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+}
+.large-img-container:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+}
 /*large-img-container-End*/
+/*Footer start*/
+.footer{
+    margin-top: 24px;
+    background-color: #0e382c;
+    font-family: SoDoSans_Light, Helvetica, sans-serif ;
+    color: #fff;
+}
+.footer .footer-container{
+    padding-left: 102px;
+    padding-top: 128px;
+    padding-bottom: 32px;
+    padding-right: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo img{
+    width: 62px;
+    height: 62px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: .800em;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 50px;
+    
+}
+ul:hover{
+    color: #bebaba;
+}
+.footer-container h3{
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: default;
+    margin-bottom: 10px;
+}
+.social-media .logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.store-logo img{
+    cursor: pointer;
+}
+/*Footer End*/
