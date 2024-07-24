@@ -404,4 +404,29 @@ ul:hover{
 .store-logo img{
     cursor: pointer;
 }
+hr{
+    background: #fff;
+    margin-bottom: 50px;
+    border: 0;
+    height: 1px;
+    margin: 10px 70px;
+}
+/*credits  start*/
+.credits{
+    font-size: 13px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.credits .credits-left{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.credits .credits-right span{
+    font-size: 10px;
+}
+/*credits End*/
 /*Footer End*/
